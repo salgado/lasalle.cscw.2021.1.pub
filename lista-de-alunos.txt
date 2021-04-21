@@ -1,18 +1,12 @@
 0-Alex Salgado
 2-Guilherme Mendes
 3-Leonardo Martelotte
-<<<<<<< HEAD
 7-Bruno Legentil
-=======
 5-Cedric Fagundes
 11-Lucas José
 12-Yan Miura
-<<<<<<< HEAD
->>>>>>> a435e433647af6e13f5547e7f061b22c94311353
-=======
 15-Gustavo Duarte
 16-Gabriel da Silva Carvalho
 23-Renan Tostes
 20-Guilherme Alexandre
 27-Rafael Marins Féres
->>>>>>> 49f9e33acb52841aefd91b8c35580536b7d80185
