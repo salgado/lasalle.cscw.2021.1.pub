@@ -6,6 +6,7 @@
 =======
 5-Cedric Fagundes
 11-Lucas José
+12-Yan Miura
 <<<<<<< HEAD
 >>>>>>> a435e433647af6e13f5547e7f061b22c94311353
 =======
