@@ -3,12 +3,6 @@
 3-Leonardo Martelotte
 5-Cedric Fagundes
 11-Lucas José
-<<<<<<< HEAD
-<<<<<<< HEAD
 16-Gabriel da Silva Carvalho
-=======
 23-Renan Tostes
->>>>>>> b0af90f88e2421e67d5f01e8d49d9a625f04cf47
-=======
 20-Guilherme Alexandre
->>>>>>> a5c027010e235b30a9b4ac53847128e2ccccd227
