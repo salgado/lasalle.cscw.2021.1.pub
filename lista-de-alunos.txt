@@ -1,4 +1,9 @@
 0-Alex Salgado
 2-Guilherme Mendes
 3-Leonardo Martelotte
+<<<<<<< HEAD
 7-Bruno Legentil
+=======
+5-Cedric Fagundes
+11-Lucas José
+>>>>>>> a435e433647af6e13f5547e7f061b22c94311353
