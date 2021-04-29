@@ -1,74 +1,126 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Profile cards - CSS grid</title>
-  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Profile cards - CSS grid</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- mypartial:index.partial.html -->
+    <div class="container">
+      <div class="card">
+        <img
+          src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no"
+          alt="Person"
+          class="card__image"
+        />
+        <p class="card__name">Lily-Grace Colley</p>
+        <div class="grid-container">
+          <div class="grid-child-posts">156 Post</div>
 
-</head>
-<body>
-<!-- mypartial:index.partial.html -->
-<div class="container">
-  <div class="card">
-    <img src="https://lh3.googleusercontent.com/ytP9VP86DItizVX2YNA-xTYzV09IS7rh4WexVp7eilIcfHmm74B7odbcwD5DTXmL0PF42i2wnRKSFPBHlmSjCblWHDCD2oD1oaM1CGFcSd48VBKJfsCi4bS170PKxGwji8CPmehwPw=w200-h247-no" alt="Person" class="card__image">
-    <p class="card__name">Lily-Grace Colley</p>
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        156 Post
+          <div class="grid-child-followers">1012 Likes</div>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-codepen"></i></a>
+          </li>
+        </ul>
+        <button class="btn draw-border">Follow</button>
+        <button class="btn draw-border">Message</button>
       </div>
 
-      <div class="grid-child-followers">
-        1012 Likes
+      <!-- INÍCIO LEONARDO MARTELOTTE -->
+      <div class="card">
+        <img
+          src="https://avatars.githubusercontent.com/u/32073964?v=4"
+          alt="Person"
+          class="card__image"
+        />
+        <p class="card__name">Leonardo Martelotte</p>
+        <div class="grid-container">
+          <div class="grid-child-posts">Período: 8º</div>
+
+          <div class="grid-child-followers">Aluno</div>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="https://github.com/leonardomartelotte"
+              ><i class="fa fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://br.linkedin.com/in/leonardo-martelotte"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+        <a
+          href="https://leonardomartelotte.github.io/martelotte-com/"
+          class="btn draw-border"
+          style="text-align: center; text-decoration: none; max-width: 130px"
+          >Follow</a
+        >
+        <a
+          href="https://leonardomartelotte.github.io/martelotte-com/contact.html"
+          class="btn draw-border"
+          style="text-align: center; text-decoration: none; max-width: 130px"
+          >Message</a
+        >
+      </div>
+      <!-- FIM LEONARDO MARTELOTTE -->
+
+      <!-- partial -->
+
+      <!-- partial:index.partial.html -->
+
+      <div class="card">
+        <img
+          src="https://avatars.githubusercontent.com/u/82421121?s=400&u=da588c1c9745346653fbceca2a6ab3949bfd113e&v=4"
+        />
+        <p class="card__name">Adriano Fernandes</p>
+        <div class="grid-container">
+          <div class="grid-child-posts">120 Post</div>
+
+          <div class="grid-child-followers">1600 Likes</div>
+        </div>
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.instagram.com/drianoo/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-codepen"></i></a>
+          </li>
+        </ul>
+
+        <a
+          href="https://adrianofernandes10.github.io/startbootstrap-landing-page/dist/index.html"
+          ><button class="btn draw-border">Página</button></a
+        >
+        <button class="btn draw-border">Message</button>
       </div>
 
+      <!-- partial -->
     </div>
-    <ul class="social-icons">
-      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-      <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-    </ul>
-    <button class="btn draw-border">Follow</button>
-    <button class="btn draw-border">Message</button>
-
-  </div>
-
-  <!-- partial -->
-
-<!-- partial:index.partial.html -->
-
-<div class="card">
-  <img src="https://avatars.githubusercontent.com/u/82421121?s=400&u=da588c1c9745346653fbceca2a6ab3949bfd113e&v=4">
-  <p class="card__name">Adriano Fernandes</p>
-  <div class="grid-container">
-
-    <div class="grid-child-posts">
-      120 Post
-    </div>
-
-    <div class="grid-child-followers">
-      1600 Likes
-    </div>
-
-  </div>
-  <ul class="social-icons">
-    <li><a href="https://www.instagram.com/drianoo/"><i class="fa fa-instagram"></i></a></li>
-    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-    <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-  </ul>
-
-
-  <a href="https://adrianofernandes10.github.io/startbootstrap-landing-page/dist/index.html"><button class="btn draw-border">Página</button></a>
-  <button class="btn draw-border">Message</button>
-
-</div>
-
-
-<!-- partial -->
-</div>
-
-  
-</body>
+  </body>
 </html>
